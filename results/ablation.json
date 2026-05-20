@@ -1,0 +1,33 @@
+{
+  "A_ml_only_direct": {
+    "count": 1000,
+    "p50_ms": 2.74060399999998,
+    "p95_ms": 3.472301749999874,
+    "p99_ms": 4.1955230000000245,
+    "mean_ms": 2.816547846999998,
+    "max_ms": 14
+  },
+  "B_pipeline_no_ml": {
+    "sent": 1501,
+    "errors": 0,
+    "indexed": 1501,
+    "count": 1501,
+    "p50_ms": 204.0,
+    "p95_ms": 606.0,
+    "p99_ms": 904.0,
+    "mean_ms": 256.854763491006,
+    "max_ms": 1454
+  },
+  "C_pipeline_with_ml": {
+    "sent": 1501,
+    "errors": 0,
+    "indexed": 1501,
+    "count": 1501,
+    "p50_ms": 209.0,
+    "p95_ms": 568.0,
+    "p99_ms": 814.0,
+    "mean_ms": 252.10526315789474,
+    "max_ms": 1074
+  },
+  "marginal_ml_cost_p95_ms": -38.0
+}

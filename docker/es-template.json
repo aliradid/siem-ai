@@ -1,0 +1,17 @@
+{
+  "index_patterns": ["siemai-events-v2-*", "siemai-events-v2-alerts-*"],
+  "template": {
+    "mappings": {
+      "properties": {
+        "features": {"type": "float"},
+        "client_ts_ms": {"type": "long"},
+        "ingest_ts_ms": {"type": "long"},
+        "infer_ts_ms": {"type": "long"},
+        "ml_score": {"type": "float"},
+        "ml_label": {"type": "keyword"},
+        "run_id": {"type": "keyword"},
+        "source_ip": {"type": "ip"}
+      }
+    }
+  }
+}

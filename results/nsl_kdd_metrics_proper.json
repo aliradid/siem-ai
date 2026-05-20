@@ -1,0 +1,59 @@
+{
+  "protocol": "KDDTrain+ -> KDDTest+ (published NSL-KDD benchmark)",
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "n_estimators": 800,
+    "subsample": 0.9
+  },
+  "best_cv_f1_on_train": 0.9988227876062358,
+  "test_accuracy": 0.7756387508871541,
+  "test_precision_macro": 0.8145394356689117,
+  "test_recall_macro": 0.7992723681511718,
+  "test_f1_macro": 0.7748289018362318,
+  "test_roc_auc": 0.969388365932385,
+  "confusion_matrix": [
+    [
+      9419,
+      292
+    ],
+    [
+      4766,
+      8067
+    ]
+  ],
+  "per_class": {
+    "0_normal": {
+      "precision": 0.6640112795206203,
+      "recall": 0.9699310060755844,
+      "f1-score": 0.7883327753598929,
+      "support": 9711.0
+    },
+    "1_attack": {
+      "precision": 0.965067591817203,
+      "recall": 0.6286137302267591,
+      "f1-score": 0.7613250283125708,
+      "support": 12833.0
+    }
+  },
+  "n_train": 125973,
+  "n_test": 22544,
+  "selected_features": [
+    "service",
+    "flag",
+    "src_bytes",
+    "dst_bytes",
+    "logged_in",
+    "count",
+    "serror_rate",
+    "srv_serror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_serror_rate",
+    "dst_host_srv_serror_rate"
+  ]
+}
