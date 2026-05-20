@@ -1,0 +1,106 @@
+{
+  "100eps": {
+    "run_id": "bench-e641a933",
+    "target_rate_eps": 100,
+    "duration_s": 20,
+    "load_stats": {
+      "sent": 2001,
+      "errors": 0,
+      "elapsed_s": 20.004290208,
+      "achieved_rate_eps": 100.02854283726455
+    },
+    "ingestion_to_alert_latency_ms": {
+      "count": 1903,
+      "p50_ms": 208.0,
+      "p95_ms": 612.7999999999997,
+      "p99_ms": 821.96,
+      "mean_ms": 253.72464529689964,
+      "max_ms": 1123
+    },
+    "logstash_throughput": {
+      "in": 11579,
+      "filtered": 11579,
+      "out": 11579,
+      "duration_in_millis": 44002,
+      "queue_push_duration_in_millis": 162
+    }
+  },
+  "250eps": {
+    "run_id": "bench-a3c9e63d",
+    "target_rate_eps": 250,
+    "duration_s": 20,
+    "load_stats": {
+      "sent": 5001,
+      "errors": 0,
+      "elapsed_s": 20.002376834,
+      "achieved_rate_eps": 250.02028716403893
+    },
+    "ingestion_to_alert_latency_ms": {
+      "count": 5001,
+      "p50_ms": 2772.0,
+      "p95_ms": 6417.0,
+      "p99_ms": 6851.0,
+      "mean_ms": 3044.649870025995,
+      "max_ms": 7182
+    },
+    "logstash_throughput": {
+      "in": 16580,
+      "filtered": 16580,
+      "out": 16580,
+      "duration_in_millis": 52957,
+      "queue_push_duration_in_millis": 210
+    }
+  },
+  "500eps": {
+    "run_id": "bench-50c305bc",
+    "target_rate_eps": 500,
+    "duration_s": 20,
+    "load_stats": {
+      "sent": 10000,
+      "errors": 0,
+      "elapsed_s": 20.001224958999998,
+      "achieved_rate_eps": 499.96937790054085
+    },
+    "ingestion_to_alert_latency_ms": {
+      "count": 10000,
+      "p50_ms": 1854.5,
+      "p95_ms": 3563.0499999999993,
+      "p99_ms": 3964.0200000000004,
+      "mean_ms": 1891.1855,
+      "max_ms": 4207
+    },
+    "logstash_throughput": {
+      "in": 26580,
+      "filtered": 26580,
+      "out": 26580,
+      "duration_in_millis": 84438,
+      "queue_push_duration_in_millis": 306
+    }
+  },
+  "1000eps": {
+    "run_id": "bench-4ff07d35",
+    "target_rate_eps": 1000,
+    "duration_s": 20,
+    "load_stats": {
+      "sent": 18500,
+      "errors": 0,
+      "elapsed_s": 20.47219525,
+      "achieved_rate_eps": 903.6646912597222
+    },
+    "ingestion_to_alert_latency_ms": {
+      "count": 10000,
+      "p50_ms": 1109.0,
+      "p95_ms": 2018.0999999999985,
+      "p99_ms": 2332.01,
+      "mean_ms": 1156.2061,
+      "max_ms": 2548
+    },
+    "logstash_throughput": {
+      "in": 45080,
+      "filtered": 45080,
+      "out": 45080,
+      "duration_in_millis": 156105,
+      "queue_push_duration_in_millis": 556
+    }
+  }
+}

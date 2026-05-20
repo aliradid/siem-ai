@@ -1,0 +1,20 @@
+{
+  "run_id": "bench-rep4-100eps",
+  "target_rate_eps": 100,
+  "duration_s": 15,
+  "load_stats": {
+    "sent": 1501,
+    "errors": 0,
+    "elapsed_s": 15.005,
+    "achieved_rate_eps": 100.0311
+  },
+  "ingestion_to_alert_latency_ms": {
+    "count": 1447,
+    "p50_ms": 208.0,
+    "p95_ms": 619.0,
+    "p99_ms": 960.92,
+    "mean_ms": 252.0,
+    "max_ms": 1080
+  },
+  "notes": "Single representative rep at the 100 events/s working point; for 5-rep means/CIs see results/stress_test_reps.json. To reproduce: scripts/04_streaming_benchmark.py --rate 100 --duration 15 --n-events 500"
+}

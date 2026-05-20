@@ -1,0 +1,24 @@
+{
+  "LogisticRegression": {
+    "test_accuracy": 0.9988523036526306,
+    "test_precision_macro": 0.9815263318614948,
+    "test_recall_macro": 0.9989769077929717,
+    "test_f1_macro": 0.9900860662567417,
+    "test_roc_auc": 0.9991738106947189
+  },
+  "RandomForest": {
+    "test_accuracy": 0.9999217479763157,
+    "test_precision_macro": 0.9992400259575025,
+    "test_recall_macro": 0.999383783367475,
+    "test_f1_macro": 0.9993118936508479,
+    "test_roc_auc": 0.9999946452367633
+  },
+  "IsolationForest_unsupervised": {
+    "note": "Trained on normals only; threshold at 97th percentile of test scores",
+    "test_accuracy": 0.9460321876657422,
+    "test_precision_macro": 0.533534722330895,
+    "test_recall_macro": 0.5347981928425365,
+    "test_f1_macro": 0.5341487950989524,
+    "test_roc_auc": 0.718448350775474
+  }
+}

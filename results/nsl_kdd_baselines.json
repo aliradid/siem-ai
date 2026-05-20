@@ -1,0 +1,16 @@
+{
+  "LogisticRegression": {
+    "test_accuracy": 0.7335876508161817,
+    "test_precision_macro": 0.7689657578764186,
+    "test_recall_macro": 0.7562362050527445,
+    "test_f1_macro": 0.7326627726306636,
+    "test_roc_auc": 0.8772923967236633
+  },
+  "RandomForest": {
+    "test_accuracy": 0.7618878637331441,
+    "test_precision_macro": 0.8063420192490778,
+    "test_recall_macro": 0.7870813987818435,
+    "test_f1_macro": 0.7606148329315102,
+    "test_roc_auc": 0.955062668559217
+  }
+}
